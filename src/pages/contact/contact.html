@@ -1,13 +1,17 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Contact
-    </ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <ion-title>
+            Contact
+        </ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
 
-    
-    
+    <ul>
+        <label>Elementos de lo que quiero mostrar DB</label>
+        <li *ngFor="let usuario of usuarios">{{usuario.id}}</li>
+    </ul>
+
+
 </ion-content>
